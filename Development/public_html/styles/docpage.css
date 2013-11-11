@@ -1,0 +1,115 @@
+#content { clear:both; margin-right:12px; margin-left:10px; font-size:16px;}
+
+#content p { padding:5px;}
+
+#pic{height:250px; width:170px; float:left;margin-right:10px;}
+#profpic{float:left; max-height:240px; max-width:170px;
+	position:relative; padding:5px; 
+	}
+
+
+#info {
+	border:5px solid #adc5e3;
+	float:left;
+    position: relative;
+    width: 420px;
+	height:250px;
+	background-color:#adc5e3;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+ h1 {
+    color: #396caa;
+    font-size: 22px;
+	border:2px dotted #d1d1d1;
+	padding-left:5px;
+}
+
+#info h2 {
+    color: #396caa;
+    font-size: 20px;
+}
+#info h4 {
+    font-size: 18px;
+	font-weight:normal;
+}
+
+#desc h5{
+	font-size: 18px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#map{
+	float:right;
+	width:400px;
+	height:260px;
+	position:relative;
+	
+}
+
+#desc{
+	width:400px;
+	float:left;
+	margin-top:30px;
+	position:relative;
+
+}
+
+
+#timetable{
+	position:relative;
+	width:400px;
+	margin-top:30px;
+	float:right;
+	
+}
+
+
+.box {
+    border: 2px groove ButtonFace;
+    border-top-width: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: .35em .625em .75em;
+    margin-top: 1em;
+    position: relative;
+}
+
+.label{
+    margin-top: -1em; 
+font: bold 16px Helvetica, Sans-Serif; 
+text-decoration:underline;
+
+}
+
+.label::before {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    border-top: 2px groove ButtonFace;
+    content: " ";
+    width: 0.5em;
+}
+
+.label::after {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    border-top: 2px groove ButtonFace;
+    content: " ";
+    width: 60%;
+}
+
+.label.label2::after {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    border-top: 2px groove ButtonFace;
+    content: " ";
+    width: 75%;
+}
+
+

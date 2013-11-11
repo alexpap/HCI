@@ -1,0 +1,30 @@
+#content { clear:both; margin-right:10px; margin-left:10px; }
+
+#content p { }
+
+#content h3 { text-transform:uppercase; padding:20px 0 15px 10px; color:#000000; }
+
+
+#banner{ 
+    border-style: solid; border-width: 2px 2px 2px 2px; width: 200px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+border-color: #385d8a; 
+position:relative; 
+margin-right:10px;
+float:right;height:300px;}
+
+#quicksearch{border-style: solid; border-width: 2px 2px 2px 2px; width: 355px;
+border-radius: 8px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px; float:left;
+height:300px;  position:relative;
+border-color: #385d8a; margin-right:10px;}
+
+#news{border-style: solid; border-width: 2px 2px 2px 2px; width: 355px;
+border-radius: 8px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px; float:left;
+height:300px; position:relative;
+border-color: #385d8a; }
